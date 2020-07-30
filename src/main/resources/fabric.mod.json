@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "rtlfix-client",
+  "version": "${version}",
+  "name": "RTLFix Client",
+  "description": "Fixes RTL Languages by moving the cursor",
+  "authors": [
+    "YTG1234"
+  ],
+  "contributors": [],
+  "contact": {
+    "sources": "https://github.com/YTG1234/RTLFix-Client.git"
+  },
+  "license": "MIT",
+  "icon": "assets/rtlfix-client/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ytg123.rtlfixclient.RTLFixClient"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "rtlfix-client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.0",
+    "fabric": "*"
+  }
+}
