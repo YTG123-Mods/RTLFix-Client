@@ -1,11 +1,17 @@
 {
-  "required": true,
-  "package": "com.ytg123.rtlfixclient.mixin",
-  "compatibilityLevel": "JAVA_8",
-  "mixins": [],
-  "client": [],
-  "server": [],
-  "injectors": {
-    "defaultRequire": 1
-  }
+    "required": true,
+    "package": "com.ytg123.rtlfixclient.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+        "BookEditScreenMixin",
+        "BookEditScreenPageContentMixinAccessor",
+        "SelectionManagerAccessor",
+        "SignEditScreenMixin",
+        "TextFieldWidgetMixin"
+    ],
+    "client": [],
+    "server": [],
+    "injectors": {
+        "defaultRequire": 1
+    }
 }

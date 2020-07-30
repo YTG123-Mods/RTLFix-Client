@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "icon": "assets/rtlfix-client/icon.png",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
       "com.ytg123.rtlfixclient.RTLFixClient"
@@ -27,5 +27,15 @@
   "depends": {
     "fabricloader": ">=0.9.0",
     "fabric": "*"
+  },
+  "recommends": {
+    "modmenu": "*"
+  },
+  "custom": {
+    "modmenu:clientsideOnly": true
+  },
+  "accessWidener" : "rtlfix-client.accesswidener",
+  "suggests": {
+    "modmenu": "*"
   }
 }
